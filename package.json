@@ -1,0 +1,21 @@
+{
+  "name": "metabolic-math-toolkit",
+  "version": "0.1.0",
+  "description": "Transparent TypeScript formulas for metabolism, body composition and training analytics.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "check": "npm run build && npm test"
+  },
+  "keywords": ["metabolism", "tdee", "body-composition", "fitness", "typescript"],
+  "author": "Pedro Henrique Oliveira",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}
